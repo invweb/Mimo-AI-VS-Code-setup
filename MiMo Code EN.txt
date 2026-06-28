@@ -1,0 +1,20 @@
+**MiMo Code** is a terminal AI programming agent from the Xiaomi MiMo team. In fact, it is a tool that helps automate code development right in the terminal: it can read and write files, execute commands, work with Git and solve complex multistep tasks.
+## Key Features
+- **Memory system.** The main feature of MiMo Code is the ability to maintain context between steps and sessions. Multi-level memory is used for this (including files like `MEMORY.md `and `checkpoint.md `, as well as the SQLite database), so that the agent does not "forget" the architectural decisions made and the state of the project. This is especially important for long tasks (with hundreds of steps), where ordinary chatbots lose focus due to the overflow of the context window.
+- **Compose mode.** Allows you to describe a high-level goal, and the agent himself will plan and complete the entire cycle: design, coding, testing and verification.
+- **Max Mode.** To increase reliability, several solutions are generated at each step, after which the best one is selected.
+- **Memory maintenance functions.** Commands like `/dream` and `distill` help to clean the history from duplicates and highlight typical workflows for reuse.
+- **Voice control.** Speech recognition via MiMo‑ASR is supported (available for authorized users).
+## Technical basis and license
+MiMo Code is based on OpenCode and released under the MIT license, which means that it can be freely used, modified, and even used in commercial projects. The source code is open and available on GitHub.
+## How is it installed
+For macOS and Linux, they use the same command in the terminal:
+``bash
+curl -fsSL https://mimo .xiaomi.com/install | bash
+``
+Can be installed on Windows via npm:
+```bash
+npm install -g @mimo-ai/cli
+```
+---
+Considering that you already have experience working with the terminal on a Mac (and you have encountered the error `zsh: command not found: mimo`), it is important to make sure that the path to the executable files is added to the variable during installation.
