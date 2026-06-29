@@ -27,4 +27,4 @@ Click Install.
 
 ```
 ---
-Considering that you already have experience working with the terminal on a Mac (and you have encountered the error `zsh: command not found: mimo`), it is important to make sure that the path to the executable files is added to the variable during installation.
+It is important to make sure that the path to the executable files is added to the variable during installation.
