@@ -1,1 +1,1 @@
-# Mimo-AI-VS-Code-setup-
+# Mimo-AI-VS-Code-setup
