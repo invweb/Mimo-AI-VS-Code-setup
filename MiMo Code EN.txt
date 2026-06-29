@@ -15,6 +15,16 @@ curl -fsSL https://mimo .xiaomi.com/install | bash
 Can be installed on Windows via npm:
 ```bash
 npm install -g @mimo-ai/cli
+
+Install the Extension in VS Code
+Open VS Code.
+
+Go to Extensions (sidebar icon) or press Cmd+Shift+X.
+
+Search for MiMoCode (author: xucux).
+
+Click Install.
+
 ```
 ---
 Considering that you already have experience working with the terminal on a Mac (and you have encountered the error `zsh: command not found: mimo`), it is important to make sure that the path to the executable files is added to the variable during installation.
