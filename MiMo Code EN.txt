@@ -28,3 +28,19 @@ Click Install.
 ```
 ---
 It is important to make sure that the path to the executable files is added to the variable during installation.
+
+How to set up VS Code
+Download and install VS Code from code.visualstudio.com.
+
+Open the editor and optionally customize theme, font, and size via File → Preferences → Settings (or Code → Preferences → Settings on Mac).
+
+Install relevant extensions for your language (Rust, Python, JS, etc.) in the Extensions view (square icon on the left).
+
+Configure project settings using .vscode/settings.json, .vscode/tasks.json, and .vscode/launch.json for build/debug workflows.
+
+About Mimo AI / Mimo Code
+There is no official “Mimo AI” VS Code plugin. If you’re referring to Mimo Code (the CLI tool you tried on Mac), it’s not an extension but a command‑line tool.
+
+For CLI usage: ensure the binary is on your PATH so the shell can find it.
+
+For an AI coding assistant in VS Code, consider alternatives like GitHub Copilot, Tabnine, CodeWhisperer, or GigaCode.
