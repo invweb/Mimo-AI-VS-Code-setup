@@ -1,2 +1,2 @@
 # Mimo-AI-VS-Code-setup
-![VS Code - MIMO setup, icon](screenshots/android_empty_list.png)
+![VS Code - MIMO setup, icon](mimo_setup_icon.png.png)
