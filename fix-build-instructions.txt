@@ -1,0 +1,24 @@
+How to ask MiMo to fix Android Studio build
+=============================================
+
+SIMPLE REQUEST:
+> "Fix my Android Studio project build"
+
+WITH ERROR LOG:
+> "Here's the error: [paste the error from Build output]"
+
+SPECIFIC:
+> "Build fails with Unresolved reference error. Look at it and fix"
+
+WITH PATH:
+> "Project is at /Users/name/Projects/MyApp. Fix the compilation"
+
+WHAT I'LL DO:
+1. Find project files (build.gradle.kts, Kotlin/Java code)
+2. Read error logs or understand from context
+3. Fix the code/configuration
+4. Verify that `./gradlew assembleDebug` passes
+
+BEST TO PROVIDE:
+- Path to project (or I'll find it myself)
+- Error text (or I'll check the build output)
